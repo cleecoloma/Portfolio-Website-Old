@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 function Projects() {
   return (
-    <Container>
+    <Container id="Projects">
       <h1>Projects</h1>
       <h3>Project #1</h3>
       <h3>Project #2</h3>
