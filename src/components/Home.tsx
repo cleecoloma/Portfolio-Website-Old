@@ -16,15 +16,33 @@ function Home() {
       </h2>
       <Button variant="outline-primary">
         <LinkedInIcon />
-        LinkedIn
+        <a
+          href="https://www.linkedin.com/in/chesterleecoloma/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
       </Button>{" "}
       <Button variant="outline-dark">
         <GitHubIcon />
-        GitHub
+        <a
+          href="https://github.com/cleecoloma"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
       </Button>{" "}
       <Button variant="outline-success">
         <PictureAsPdfIcon />
-        Resume
+        <a
+          href="https://github.com/cleecoloma"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
       </Button>{" "}
     </Container>
   );

@@ -5,6 +5,8 @@ function Contact() {
   return (
     <Container>
       <h1>Contact</h1>
+      <p>Get in touch!</p>
+      <p>Email: cleecoloma@gmail.com</p>
     </Container>
   );
 }

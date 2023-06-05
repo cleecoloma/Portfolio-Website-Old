@@ -6,7 +6,7 @@ function Header() {
   return (
     <Navbar bg="light" variant="light">
       <Container>
-        <Navbar.Brand href="#home">Chester</Navbar.Brand>
+        <Navbar.Brand href="#home">Chester Lee Coloma</Navbar.Brand>
         <Nav className="me-0">
           <Nav.Link href="/home">
             Home
