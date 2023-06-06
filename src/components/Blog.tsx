@@ -5,6 +5,7 @@ function Blog() {
   return (
     <Container>
       <h1>Blog</h1>
+      <hr />
     </Container>
   );
 }

@@ -10,6 +10,7 @@ function Home() {
           <span style={{ color: "blue" }}>front-end web developer</span>.
         </p>
       </h2>
+      <hr />
     </Container>
   );
 }
