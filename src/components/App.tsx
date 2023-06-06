@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import Blog from "./Blog";
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Blog />
       <About />
       <Contact />
+      <Footer />
     </>
   );
 }
