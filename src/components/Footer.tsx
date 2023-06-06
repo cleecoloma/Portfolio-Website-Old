@@ -6,7 +6,8 @@ function Footer() {
   return (
     <Container>
       <hr />
-      <p>Made by Chester Lee Coloma {year}</p>
+      <p>Made by Chester Lee Coloma</p>
+      <p>{year}</p>
     </Container>
   );
 }
