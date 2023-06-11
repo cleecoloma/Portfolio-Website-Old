@@ -22,7 +22,7 @@ function ContactForm() {
         <Form.Control type="phone" placeholder="111-111-1111" />
       </FloatingLabel>
       <FloatingLabel controlId="floatingInput" label="Message" className="mb-3">
-        <Form.Control as="textarea" placeholder="Leave a message here" />
+        <Form.Control as="textarea" placeholder="Leave a message here"/>
       </FloatingLabel>
       <Button variant="primary">Submit</Button>
     </Container>
