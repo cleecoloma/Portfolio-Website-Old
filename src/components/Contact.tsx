@@ -4,6 +4,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 import { Container } from "react-bootstrap";
+import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
@@ -41,6 +42,7 @@ function Contact() {
           Resume
         </a>
       </Button>{" "}
+      <ContactForm />
     </Container>
   );
 }
