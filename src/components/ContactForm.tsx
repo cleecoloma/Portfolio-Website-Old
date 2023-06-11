@@ -14,14 +14,17 @@ function ContactForm() {
       >
         <Form.Control type="email" placeholder="name@example.com" />
       </FloatingLabel>
-      <FloatingLabel 
-        controlId="floatingText" 
-        label="Message"
-        className='mb-3'
-        >
+      <FloatingLabel
+        controlId="floatingInput"
+        label="Phone Number"
+        className="mb-3 mt-3"
+      >
+        <Form.Control type="phone" placeholder="111-111-1111" />
+      </FloatingLabel>
+      <FloatingLabel controlId="floatingInput" label="Message" className="mb-3">
         <Form.Control as="textarea" placeholder="Leave a message here" />
       </FloatingLabel>
-      <Button variant='primary'>Submit</Button>
+      <Button variant="primary">Submit</Button>
     </Container>
   );
 }
