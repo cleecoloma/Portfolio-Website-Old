@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 function Header() {
   return (
-    <Navbar bg="light" variant="light">
+    <Navbar bg="light" variant="light" sticky="top">
       <Container>
         <Navbar.Brand href="#home">Chester Lee Coloma</Navbar.Brand>
         <Nav className="me-0">
