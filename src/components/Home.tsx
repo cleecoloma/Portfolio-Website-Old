@@ -11,7 +11,8 @@ function Home() {
           <span style={{ color: "blue" }}>front-end web developer</span>.
         </p>
       </h2>
-      <Button variant="primary">See My Projects</Button>
+      <Button variant="primary">See My Projects</Button>{" "}
+      <Button variant="primary">Contact Me</Button>
       <hr />
     </Container>
   );
