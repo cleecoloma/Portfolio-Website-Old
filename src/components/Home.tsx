@@ -1,4 +1,5 @@
 import { Container } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
           <span style={{ color: "blue" }}>front-end web developer</span>.
         </p>
       </h2>
+      <Button variant="primary">See My Projects</Button>
       <hr />
     </Container>
   );
