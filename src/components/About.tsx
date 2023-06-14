@@ -13,13 +13,7 @@ function About() {
         this July 2023.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Duis convallis
-        convallis tellus id interdum velit laoreet id. Quis lectus nulla at
-        volutpat diam ut. Sit amet aliquam id diam. In dictum non consectetur a
-        erat nam. Dignissim diam quis enim lobortis scelerisque fermentum.
-        Mauris augue neque gravida in fermentum et sollicitudin ac. Eu facilisis
-        sed odio morbi quis.
+        Background - I first learned about coding when I was assigned to be a webmaster for one of my Mechanical Engineering class. At that time, I only learned about HTML and CSS and updated the website using them.
       </p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
