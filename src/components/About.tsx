@@ -14,6 +14,10 @@ function About() {
       </p>
       <p>
         Background - I first learned about coding when I was assigned to be a webmaster for one of my Mechanical Engineering class. At that time, I only learned about HTML and CSS and updated the website using them.
+
+        Transition - During the past year, I have been coding on and off after work and sometimes during the weekends. I have learning from YouTube videos and Udemy courses. At this time, I found myself thinking that I could make it my career. 
+
+        Current - As an investment in myself, I have decided to attend a coding bootcamp. I have done a lot of research about in-person and remote coding bootcamps.
       </p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
