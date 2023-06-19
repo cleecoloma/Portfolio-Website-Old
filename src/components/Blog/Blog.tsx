@@ -16,7 +16,7 @@ function Blog() {
     <Container>
       <h1>Blog</h1>
       <VerticalTimeline>
-        {blogElementsList.map((blog) => {
+        {blogElementsList.toReversed().map((blog) => {
           return (
             <VerticalTimelineElement
             key= {blog.id}
@@ -25,9 +25,9 @@ function Blog() {
               <h3>
                 {blog.title}
               </h3>
-              <h4>
+              <h5>
                 {blog.location}
-              </h4>
+              </h5>
               <p>{blog.description}</p>
             </VerticalTimelineElement>
           )
