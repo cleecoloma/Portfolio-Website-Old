@@ -1,11 +1,38 @@
 import React from 'react';
 import { Container } from "react-bootstrap";
+import { VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import blogElementsList from "../Blog/blogElementsList.json";
+
+type blogElementsListProps = {
+  id: number;
+  date: string;
+  location: string;
+  description: string;
+}
 
 function Blog() {
   return (
     <Container>
       <h1>Blog</h1>
-      <hr />
+      <VerticalTimeline>
+        {blogElementsList.map((blog) => {
+          return (
+            <VerticalTimelineElement
+            key= {blog.id}
+            date= {blog.date}
+            >
+              <h3>
+                {blog.title}
+              </h3>
+              <h4>
+                {blog.location}
+              </h4>
+              <p>{blog.description}</p>
+            </VerticalTimelineElement>
+          )
+        })}
+      </VerticalTimeline>
     </Container>
   );
 }
