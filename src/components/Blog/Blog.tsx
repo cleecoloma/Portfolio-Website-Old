@@ -33,6 +33,7 @@ function Blog() {
           )
         })}
       </VerticalTimeline>
+      <hr />
     </Container>
   );
 }
