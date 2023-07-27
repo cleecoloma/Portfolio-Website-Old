@@ -1,0 +1,30 @@
+/* * {
+  background-color: bisque;
+} */
+
+body {
+  margin: 0 10rem;
+  background-color: lightgray;
+}
+
+header {
+  display: flex;
+  height: 3rem;
+  background-color: darkgray;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar {
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+}
+
+#links li {
+  margin: 0 2rem;
+  list-style-type: none;
+  
+}
