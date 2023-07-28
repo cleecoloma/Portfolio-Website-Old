@@ -56,26 +56,30 @@ a {
 #hero {
   height: 40rem;
   margin: 0 10rem;
+  padding: 6rem 0 1rem;
 }
 
 #hero p:first-child {
-  padding: 6rem 0 1rem;
+  padding-bottom: 1rem;
   letter-spacing: 2px;
 }
 
 #hero h2 {
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 80%;
+  color: #274947;
 }
 
 span {
   color: rgb(216, 210, 210);
+  font-weight: 700;
 }
 
 #hero p:nth-of-type(2) {
   margin: 2rem 0 1rem;
   letter-spacing: 2px;
+  font-size: 28px;
 }
 
 #contact-button {
@@ -92,4 +96,20 @@ span {
 
 #contact-button:hover {
   background-color: #274947;
+}
+
+#skills {
+  position: relative;
+  background-color: rgb(216, 210, 210);
+  height: 20rem;
+  width: 50rem;
+  left: 12rem;
+  bottom: 10rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#projects {
+  background-color: #eeeeee;
+  height: 10rem;
 }
