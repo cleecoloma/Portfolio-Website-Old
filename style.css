@@ -30,6 +30,7 @@ header {
 h1 {
   letter-spacing: 3px;
   color: #3f6c4b;
+  font-size: 350%;
 }
 
 #links {
@@ -71,9 +72,16 @@ a {
   color: #274947;
 }
 
-span {
+h2 span {
   color: rgb(216, 210, 210);
   font-weight: 700;
+}
+
+p span {
+  color: rgb(240, 233, 233);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #3f6c4b;
 }
 
 #hero p:nth-of-type(2) {
