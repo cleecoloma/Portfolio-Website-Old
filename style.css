@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -107,17 +107,26 @@ p span {
 }
 
 #skills {
-  position: relative;
+  position: absolute;
   background-color: rgb(216, 210, 210);
-  height: 20rem;
+  height: 15rem;
   width: 50rem;
   left: 12rem;
-  bottom: 10rem;
+  top: 33rem;
   border-radius: 8px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+}
+
+/* #skills-text {
+  position: relative;
+  bottom: 0;
+} */
+
+h3 {
+  font-family: 'Roboto', sans-serif;
 }
 
 #projects {
   background-color: #eeeeee;
-  height: 10rem;
+  height: 38rem;
 }
