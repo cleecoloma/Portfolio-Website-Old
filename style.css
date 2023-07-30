@@ -161,12 +161,12 @@ p span {
   color: #34914e;
 }
 
-.cards {
+#cards {
   display: flex;
   margin-left: 10rem;
 }
 
-.cards img {
+#cards img {
   height: 350px;
   box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
 }
