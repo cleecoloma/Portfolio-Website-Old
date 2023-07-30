@@ -113,11 +113,19 @@ p span {
   left: 12rem;
   top: 33rem;
   border-radius: 8px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.6); */
+  padding: 2rem;
+  border: thick solid black;
 }
 
-h3 {
+#skills h3 {
   font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: -1rem;
+  left: 0.5rem;
+  background-color: white;
+  padding: 3px;
+  border-radius: 5px;
 }
 
 #projects {
