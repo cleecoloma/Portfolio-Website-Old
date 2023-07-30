@@ -108,14 +108,20 @@ p span {
 }
 
 #skills {
+  display: flex;
   position: absolute;
-  background-color: rgb(243, 239, 239);
+  background-color: rgb(216, 210, 210);
   left: 12rem;
   top: 33rem;
   border-radius: 8px;
-  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.6); */
-  padding: 2rem;
-  border: thick solid black;
+  box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
+  padding: 2rem 1rem 0.5rem;
+}
+
+#skills div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #skills h3 {
@@ -123,38 +129,24 @@ p span {
   position: absolute;
   top: -1rem;
   left: 0.5rem;
-  background-color: white;
-  padding: 3px;
+  background-color: rgb(230, 224, 224);
+  padding: 2px;
   border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
 }
 
-#projects {
-  background-color: #eeeeee;
-  height: 38rem;
-}
-
-#javascript {
-  fill: #f7df1e;
-}
-
-#html {
-  fill: #ff5733;
-}
-
-#css {
-  fill: #264de4;
-}
-
-svg {
-  margin: 8px;
-}
-
-#skills-language {
-  display: flex;
-  background-color: rgb(255, 255, 255);
+.tech-text {
+  /* display: inline; */
+  font-family: 'Barlow', sans-serif;
+  font-size: 300;
 }
 
 .fa-brands {
   color: #274947;
   margin: 0 1rem;
+}
+
+#projects {
+  background-color: #eeeeee;
+  height: 38rem;
 }
