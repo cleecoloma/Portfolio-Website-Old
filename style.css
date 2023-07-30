@@ -120,10 +120,6 @@ p span {
   height: 115px;
 }
 
-#skills h3 {
-  font-family: 'Bebas Neue', sans-serif;
-}
-
 #skills div {
   display: flex;
   flex-direction: column;
@@ -166,10 +162,21 @@ p span {
 }
 
 .cards {
+  display: flex;
   margin-left: 10rem;
 }
 
 .cards img {
-  height: 420px;
+  height: 350px;
   box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
+}
+
+.card-description {
+  padding-left: 3rem;
+}
+
+.card-description h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 700;
+  padding-bottom: 8px;
 }
