@@ -116,6 +116,12 @@ p span {
   border-radius: 8px;
   box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
   padding: 2rem 1rem 0.5rem;
+  width: 730px;
+  height: 115px;
+}
+
+#skills h3 {
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 #skills div {
@@ -136,7 +142,6 @@ p span {
 }
 
 .tech-text {
-  /* display: inline; */
   font-family: 'Barlow', sans-serif;
   font-size: 300;
 }
@@ -149,4 +154,22 @@ p span {
 #projects {
   background-color: #eeeeee;
   height: 38rem;
+}
+
+#project-cards {
+  margin: 0 10rem;
+}
+
+#project-cards h3 {
+  padding: 2rem 0;
+  color: #34914e;
+}
+
+.cards {
+  margin-left: 10rem;
+}
+
+.cards img {
+  height: 420px;
+  box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
 }
