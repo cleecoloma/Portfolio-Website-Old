@@ -110,8 +110,6 @@ p span {
 #skills {
   position: absolute;
   background-color: rgb(243, 239, 239);
-  height: 8rem;
-  width: 50rem;
   left: 12rem;
   top: 33rem;
   border-radius: 8px;
@@ -146,4 +144,9 @@ svg {
 #skills-language {
   display: flex;
   background-color: rgb(255, 255, 255);
+}
+
+.fa-brands {
+  color: #274947;
+  margin: 0 1rem;
 }
