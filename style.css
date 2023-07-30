@@ -74,7 +74,7 @@ a {
 }
 
 h2 span {
-  color: rgb(216, 210, 210);
+  color: rgb(240, 233, 233);
   font-weight: 700;
 }
 
@@ -111,7 +111,7 @@ p span {
   display: flex;
   position: absolute;
   background-color: rgb(216, 210, 210);
-  left: 12rem;
+  left: 10rem;
   top: 33rem;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
@@ -130,7 +130,7 @@ p span {
   top: -1rem;
   left: 0.5rem;
   background-color: rgb(230, 224, 224);
-  padding: 2px;
+  padding: 2px 6px;
   border-radius: 5px;
   box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
 }
