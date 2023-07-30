@@ -149,11 +149,11 @@ p span {
 
 #projects {
   background-color: #eeeeee;
-  height: 38rem;
 }
 
 #project-cards {
   margin: 0 10rem;
+  display: block;
 }
 
 #project-cards h3 {
@@ -164,6 +164,7 @@ p span {
 #cards {
   display: flex;
   margin-left: 10rem;
+  margin-bottom: 3rem;
 }
 
 #cards img {
