@@ -182,6 +182,10 @@ p span {
   padding-bottom: 8px;
 }
 
+.card-description p {
+  padding: 0 8px;
+}
+
 table {
   border-collapse: separate;
   border-spacing: 8px;

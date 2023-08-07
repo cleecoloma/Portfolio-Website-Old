@@ -2,20 +2,12 @@
 
 const projects = [];
 
-function Projects(
-  name,
-  imageSource,
-  description,
-  tech,
-  codeLink,
-  deployedLink
-) {
+function Projects(name, imageSource, description, tech, link) {
   this.name = name;
   this.imageSource = imageSource;
   this.description = description;
   this.tech = tech;
-  this.codeLink = codeLink;
-  this.deployedLink = deployedLink;
+  this.link = link;
   projects.push(this);
 }
 
@@ -38,6 +30,7 @@ function displayProjects(projects) {
     divElement.appendChild(h4Element);
     divElement.appendChild(pElement);
     divElement.appendChild(createSkillsRow(projects[i]));
+    divElement.appendChild(createLinksRow(projects[i]));
     cardElement.appendChild(imgElement);
     cardElement.appendChild(divElement);
     PROJECTS.appendChild(cardElement);
@@ -58,24 +51,50 @@ function createSkillsRow(skills) {
   return tableElement;
 }
 
+function createLinksRow(links) {
+  let divElement = document.createElement('div');
+  let linkElement = document.createElement('a');
+  let link2Element = document.createElement('a');
+  linkElement.setAttribute('href', links.link.github);
+  linkElement.textContent = 'GitHub';
+  link2Element.setAttribute('href', links.link.live);
+  link2Element.textContent = 'Demo';
+  divElement.appendChild(linkElement);
+  divElement.appendChild(link2Element);
+  return divElement;
+}
+
 new Projects(
   'Landscaping Company',
   'img/landscaping-company.png',
-  'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.', ['JavaScript', 'HTML', 'CSS']
+  'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.',
+  ['JavaScript', 'HTML', 'CSS'],
+  {
+    github: 'https://github.com/cleecoloma/Landscaping-Company',
+    live: 'https://cleecoloma.github.io/Landscaping-Company/',
+  }
 );
 
 new Projects(
   'Landscaping Company 2',
   'img/landscaping-company.png',
   'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.',
-  ['JavaScript', 'HTML', 'CSS']
+  ['JavaScript', 'HTML', 'CSS'],
+  {
+    github: 'https://github.com/cleecoloma/Landscaping-Company',
+    live: 'https://cleecoloma.github.io/Landscaping-Company/',
+  }
 );
 
 new Projects(
   'Landscaping Company 3',
   'img/landscaping-company.png',
   'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.',
-  ['JavaScript', 'HTML', 'CSS']
+  ['JavaScript', 'HTML', 'CSS'],
+  {
+    github: 'https://github.com/cleecoloma/Landscaping-Company',
+    live: 'https://cleecoloma.github.io/Landscaping-Company/',
+  }
 );
 
 displayProjects(projects);
