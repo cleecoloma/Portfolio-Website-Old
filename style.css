@@ -181,3 +181,14 @@ p span {
   font-size: 700;
   padding-bottom: 8px;
 }
+
+table {
+  border-collapse: separate;
+  border-spacing: 8px;
+}
+
+td {
+  padding: 2px 12px;
+  border: thin solid #3f6c4b;
+  border-radius: 8px;
+}

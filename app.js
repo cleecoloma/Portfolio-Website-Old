@@ -21,20 +21,9 @@ function Projects(
 
 const PROJECTS = document.getElementById('project-cards');
 
-// //
-// const listOfElements = ['div', 'img', 'div', 'h4', 'p']
-
-// // creates elements
-// function createAnElement(elementName, element, id, attribute) {
-//   elementName = document.createElement(element);
-//   elementName.setAttribute(id, attribute)
-//   return elementName;
-// }
-
 // display each project from projects array
 function displayProjects(projects) {
   for (let i = 0; i < projects.length; i++) {
-    // let imgElement = createAnElement('imgElement', 'img', 'id', projects[i].imageSource);
     let cardElement = document.createElement('div');
     let imgElement = document.createElement('img');
     let divElement = document.createElement('div');
@@ -48,28 +37,45 @@ function displayProjects(projects) {
     pElement.textContent = projects[i].description;
     divElement.appendChild(h4Element);
     divElement.appendChild(pElement);
+    divElement.appendChild(createSkillsRow(projects[i]));
     cardElement.appendChild(imgElement);
     cardElement.appendChild(divElement);
     PROJECTS.appendChild(cardElement);
   }
 }
 
+function createSkillsRow(skills) {
+  let tableElement = document.createElement('table');
+  let tableBodyElement = document.createElement('tbody');
+  let rowElement = document.createElement('tr');
+  for (let i = 0; i < skills.tech.length; i++) {
+    let cellElement = document.createElement('td');
+    cellElement.textContent = skills.tech[i];
+    rowElement.appendChild(cellElement);
+  }
+  tableBodyElement.appendChild(rowElement);
+  tableElement.appendChild(tableBodyElement);
+  return tableElement;
+}
+
 new Projects(
   'Landscaping Company',
   'img/landscaping-company.png',
-  'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.'
+  'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.', ['JavaScript', 'HTML', 'CSS']
 );
 
 new Projects(
   'Landscaping Company 2',
   'img/landscaping-company.png',
-  'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.'
+  'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.',
+  ['JavaScript', 'HTML', 'CSS']
 );
 
 new Projects(
   'Landscaping Company 3',
   'img/landscaping-company.png',
-  'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.'
+  'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.',
+  ['JavaScript', 'HTML', 'CSS']
 );
 
 displayProjects(projects);
