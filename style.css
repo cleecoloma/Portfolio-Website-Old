@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bebas+Neue&family=Poppins:wght@200;300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+main {
+  background-color: #7eb5b3;
+  height: 80rem;
+}
+
+footer {
+  background-color: #eeeeee;
+}
+
+header {
+  display: flex;
+  margin: 0 10rem;
+  height: 3.4rem;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  letter-spacing: 3px;
+  color: #3f6c4b;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+}
+
+#links li {
+  margin-left: 3rem;
+  padding: 2px 0;
+  list-style-type: none;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Barlow', sans-serif;
+  font-size: 300;
+}
+
+#links li:hover {
+  box-shadow: inset 0 -1px 0 0 #539165;
+}
+
+#hero {
+  height: 40rem;
+  margin: 0 10rem;
+  padding: 6rem 0 1rem;
+}
+
+#hero p:first-child {
+  padding-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+#hero h2 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 80%;
+  color: #274947;
+}
+
+h2 span {
+  color: rgb(240, 233, 233);
+  font-weight: 700;
+}
+
+p span {
+  color: rgb(240, 233, 233);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #3f6c4b;
+}
+
+#hero p:nth-of-type(2) {
+  margin: 2rem 0 1rem;
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+
+#contact-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 22px;
+  background-color: #539165;
+  border: thin solid black;
+}
+
+#contact-button a {
+  color: rgb(231, 226, 226);
+}
+
+#contact-button:hover {
+  background-color: #274947;
+}
+
+#skills {
+  display: flex;
+  position: absolute;
+  background-color: rgb(216, 210, 210);
+  left: 10rem;
+  top: 33rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
+  padding: 2rem 1rem 0.5rem;
+  width: 730px;
+  height: 115px;
+}
+
+#skills div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skills h3 {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: -1rem;
+  left: 0.5rem;
+  background-color: rgb(230, 224, 224);
+  padding: 2px 6px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
+}
+
+.tech-text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 300;
+}
+
+.fa-brands {
+  color: #274947;
+  margin: 0 1rem;
+}
+
+#projects {
+  background-color: #eeeeee;
+}
+
+#project-cards {
+  margin: 0 10rem;
+  display: block;
+}
+
+#project-cards h3 {
+  padding: 2rem 0;
+  color: #34914e;
+}
+
+#cards {
+  display: flex;
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+}
+
+#cards img {
+  height: 350px;
+  box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
+}
+
+.card-description {
+  padding-left: 3rem;
+}
+
+.card-description h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 700;
+  padding-bottom: 8px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 8px;
+}
+
+td {
+  padding: 2px 12px;
+  border: thin solid #3f6c4b;
+  border-radius: 8px;
+}
