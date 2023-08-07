@@ -68,29 +68,30 @@ function createLinksRow(links) {
 }
 
 new Projects(
-  'Landscaping Company',
+  'LANDSCAPING COMPANY',
   'img/landscaping-company.png',
   'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.',
   ['JavaScript', 'HTML', 'CSS'],
   {
     github: 'https://github.com/cleecoloma/Landscaping-Company',
     live: 'https://cleecoloma.github.io/Landscaping-Company/',
+  }
+);
+
+
+new Projects(
+  'QUIZZARD WIZARD',
+  'img/quizzard-wizard.png',
+  "The Quizzard Wizard is a fun and engaging web application that challenges users with a wide range of exciting quizzes on various topics. Players can test their knowledge, compete with friends, and unlock achievements as they progress through levels. With a user-friendly interface and instant feedback, the quiz game provides an enjoyable way to learn and expand one's knowledge while having a great time.",
+  ['JavaScript', 'HTML', 'CSS', 'API'],
+  {
+    github: 'https://github.com/Code-Fellow-Quizzards/quizzard-wizard',
+    live: 'https://code-fellow-quizzards.github.io/quizzard-wizard/',
   }
 );
 
 new Projects(
   'Landscaping Company 2',
-  'img/landscaping-company.png',
-  'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.',
-  ['JavaScript', 'HTML', 'CSS'],
-  {
-    github: 'https://github.com/cleecoloma/Landscaping-Company',
-    live: 'https://cleecoloma.github.io/Landscaping-Company/',
-  }
-);
-
-new Projects(
-  'Landscaping Company 3',
   'img/landscaping-company.png',
   'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.',
   ['JavaScript', 'HTML', 'CSS'],
