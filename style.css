@@ -196,3 +196,7 @@ td {
   border: thin solid #3f6c4b;
   border-radius: 8px;
 }
+
+#links {
+  padding: 0 8px;
+}

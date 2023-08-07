@@ -55,10 +55,13 @@ function createLinksRow(links) {
   let divElement = document.createElement('div');
   let linkElement = document.createElement('a');
   let link2Element = document.createElement('a');
+  divElement.setAttribute('id', 'links');
   linkElement.setAttribute('href', links.link.github);
-  linkElement.textContent = 'GitHub';
+  linkElement.innerHTML =
+    '<button><i class="fa-brands fa-square-github fa-2xl"></i>Code</button>';
   link2Element.setAttribute('href', links.link.live);
-  link2Element.textContent = 'Demo';
+  link2Element.innerHTML =
+    '<button><i class="fa-solid fa-link fa-2xl"></i>Demo</button>';
   divElement.appendChild(linkElement);
   divElement.appendChild(link2Element);
   return divElement;
