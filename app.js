@@ -58,10 +58,10 @@ function createLinksRow(links) {
   divElement.setAttribute('id', 'links');
   linkElement.setAttribute('href', links.link.github);
   linkElement.innerHTML =
-    '<button><i class="fa-brands fa-square-github fa-2xl"></i>Code</button>';
+    '<button><i class="fa-brands fa-github fa-2xl"></i></i><span>Code</span></button>';
   link2Element.setAttribute('href', links.link.live);
   link2Element.innerHTML =
-    '<button><i class="fa-solid fa-link fa-2xl"></i>Demo</button>';
+    '<button><i class="fa-solid fa-link fa-2xl"></i><span>Demo</span></button>';
   divElement.appendChild(linkElement);
   divElement.appendChild(link2Element);
   return divElement;
