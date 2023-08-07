@@ -1,6 +1,6 @@
 ## Welcome to my portfolio website GitHub repository! This repository contains the code for my personal portfolio website, showcasing my skills, projects, and experiences.
 
-[https://cleecoloma.github.io/Portfolio-Website/](Portfolio Website Link)
+[Portfolio Website Link](https://cleecoloma.github.io/Portfolio-Website/)
 
 ### 🚀 Features:
 
