@@ -32,6 +32,10 @@ h1 {
   font-family: 'Bebas Neue', sans-serif;
 }
 
+button {
+  border-style: none;
+}
+
 #links {
   display: flex;
   flex-direction: row;
@@ -182,6 +186,10 @@ p span {
   padding-bottom: 8px;
 }
 
+.card-description p {
+  padding: 0 8px;
+}
+
 table {
   border-collapse: separate;
   border-spacing: 8px;
@@ -191,4 +199,30 @@ td {
   padding: 2px 12px;
   border: thin solid #3f6c4b;
   border-radius: 8px;
+}
+
+#links {
+  padding: 0 8px;
+}
+
+#links i {
+  margin: 0;
+  color: white;
+}
+
+#links button {
+  margin: 16px 16px 0 0;
+  height: 40px;
+  width: 110px;
+  border-radius: 16px;
+  background-color: #647473;
+  color: white;
+}
+
+#links span {
+  padding: 0 4px;
+}
+
+#links button:hover {
+  background-color: #7f9593;
 }
