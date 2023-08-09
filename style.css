@@ -10,7 +10,6 @@ body {
 
 main {
   background-color: #7eb5b3;
-  height: 80rem;
 }
 
 footer {
@@ -226,4 +225,8 @@ td {
 
 #links button:hover {
   background-color: #7f9593;
+}
+
+#about {
+  height: 300px;
 }
