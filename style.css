@@ -10,7 +10,6 @@ body {
 
 main {
   background-color: #7eb5b3;
-  height: 80rem;
 }
 
 footer {
@@ -173,6 +172,7 @@ p span {
 
 #cards img {
   height: 350px;
+  margin: 25px 0;
   box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
 }
 
@@ -225,4 +225,19 @@ td {
 
 #links button:hover {
   background-color: #7f9593;
+}
+
+#about {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#about-left, #about-right {
+  width: 50%;
+}
+
+#about-right p {
+  margin: 0 8rem;
 }
