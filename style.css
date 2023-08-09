@@ -229,4 +229,15 @@ td {
 
 #about {
   height: 500px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#about-left, #about-right {
+  width: 50%;
+}
+
+#about-right p {
+  margin: 0 8rem;
 }
