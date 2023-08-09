@@ -173,6 +173,7 @@ p span {
 
 #cards img {
   height: 350px;
+  margin: 25px 0;
   box-shadow: 0 3px 10px rgb(63 108 75 / 0.3);
 }
 
