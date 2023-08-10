@@ -245,7 +245,8 @@ td {
 #contact-form {
   background-color: rgb(228, 222, 222);
   border-radius: 12px;
-  padding: 20px;
+  padding: 2rem;
+  margin: 2rem 22rem;
 }
 
 label {
