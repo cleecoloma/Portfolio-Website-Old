@@ -286,3 +286,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #9dc08b;
 }
+
+#contact-links, #contact-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
