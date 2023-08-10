@@ -243,7 +243,12 @@ td {
 }
 
 #contact-form {
-  background-color: rgb(228, 222, 222);
+  background-color: #eeeeee;
+  padding: 2rem;
+}
+
+form {
+  background-color: rgb(216, 210, 210);
   border-radius: 12px;
   padding: 2rem;
   margin: 2rem 22rem;
