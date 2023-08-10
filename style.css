@@ -241,3 +241,54 @@ td {
 #about-right p {
   margin: 0 8rem;
 }
+
+#contact-form {
+  background-color: #eeeeee;
+  padding: 2rem;
+}
+
+form {
+  background-color: rgb(216, 210, 210);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 22rem;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+textarea {
+  height: 10rem;
+}
+
+input[type="submit"] {
+  background-color: #609966;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #9dc08b;
+}
+
+#contact-links, #contact-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
