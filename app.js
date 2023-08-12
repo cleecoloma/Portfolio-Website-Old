@@ -57,9 +57,13 @@ function createLinksRow(links) {
   let link2Element = document.createElement('a');
   divElement.setAttribute('id', 'links');
   linkElement.setAttribute('href', links.link.github);
+  linkElement.setAttribute('target', '_blank');
+  linkElement.setAttribute('rel', 'noreferrer noopener');
   linkElement.innerHTML =
     '<button><i class="fa-brands fa-github fa-2xl"></i></i><span>Code</span></button>';
   link2Element.setAttribute('href', links.link.live);
+  link2Element.setAttribute('target', '_blank');
+  link2Element.setAttribute('rel', 'noreferrer noopener');
   link2Element.innerHTML =
     '<button><i class="fa-solid fa-link fa-2xl"></i><span>Demo</span></button>';
   divElement.appendChild(linkElement);
@@ -77,7 +81,6 @@ new Projects(
     live: 'https://cleecoloma.github.io/Landscaping-Company/',
   }
 );
-
 
 new Projects(
   'QUIZZARD WIZARD',
