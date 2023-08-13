@@ -167,7 +167,7 @@ p span {
 #cards {
   display: flex;
   margin-left: 10rem;
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 #cards img {
@@ -228,7 +228,7 @@ td {
 }
 
 #about {
-  height: 500px;
+  height: 400px;
   display: flex;
   align-items: center;
   text-align: center;
