@@ -231,7 +231,7 @@ td {
 }
 
 #about {
-  height: 400px;
+  padding: 2rem 0;
   display: flex;
   align-items: center;
   text-align: center;
@@ -239,6 +239,19 @@ td {
 
 #about-left, #about-right {
   width: 50%;
+  
+}
+
+#about-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-left img {
+  width: 300px;
+  border-radius: 50%;
+  margin: 2rem 0;
 }
 
 #about-right {
