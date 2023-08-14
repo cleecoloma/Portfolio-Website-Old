@@ -94,13 +94,13 @@ new Projects(
 );
 
 new Projects(
-  'Landscaping Company 2',
-  'img/landscaping-company.png',
-  'This is a landing page for a lawn company. A static landing page website that is responsive and works well with multiple screen sizes, including desktops and mobile phones, is designed to provide a consistent and optimized user experience regardless of the device being used.',
+  'CHOCOLATE PIZZA',
+  'img/chocolate-pizza.png',
+  `This is a landing page for a chocolate pizza recipe. It was created from a basic wireframe and design template. Images were provided; however, icons and fonts were at the developer's discretion.`,
   ['JavaScript', 'HTML', 'CSS'],
   {
-    github: 'https://github.com/cleecoloma/Landscaping-Company',
-    live: 'https://cleecoloma.github.io/Landscaping-Company/',
+    github: 'https://github.com/cleecoloma/chocolate-pizza-landing-page',
+    live: 'https://cleecoloma.github.io/chocolate-pizza-landing-page/',
   }
 );
 
